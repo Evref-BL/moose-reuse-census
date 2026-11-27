@@ -1,0 +1,478 @@
+digraph reuse_by_project {
+  rankdir=LR;
+  graph [compound=true, splines=polyline];
+  node [shape=box];
+  subgraph cluster_project_0 {
+    label="Famix-Java (Moose 11)";
+    style="rounded";
+    "moose-11-builtin-Famix-Java-Entities" [label=<<FONT POINT-SIZE="12">Famix-Java</FONT><BR/><FONT POINT-SIZE="11">entities: 41</FONT><BR/><FONT POINT-SIZE="11">traits: 8</FONT>>];
+    "moose-11-builtin-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 117</FONT>>];
+    "moose-11-builtin-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_1 {
+    label="Casino (Moose 11)";
+    style="rounded";
+    "moose-11-casino-Casino-Behavior-Model" [label=<<FONT POINT-SIZE="12">Casino-Behavior</FONT><BR/><FONT POINT-SIZE="11">entities: 30</FONT><BR/><FONT POINT-SIZE="11">traits: 0</FONT>>];
+    "moose-11-casino-Casino-Business-Model" [label=<<FONT POINT-SIZE="12">Casino-Business</FONT><BR/><FONT POINT-SIZE="11">entities: 10</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+    "moose-11-casino-Casino-Model" [label=<<FONT POINT-SIZE="12">Casino</FONT><BR/><FONT POINT-SIZE="11">entities: 15</FONT><BR/><FONT POINT-SIZE="11">traits: 0</FONT>>];
+    "moose-11-casino-Casino-Model-CoreWeb" [label=<<FONT POINT-SIZE="12">Casino-CoreWeb</FONT><BR/><FONT POINT-SIZE="11">entities: 28</FONT><BR/><FONT POINT-SIZE="11">traits: 0</FONT>>];
+    "moose-11-casino-Casino-Model-Layout" [label=<<FONT POINT-SIZE="12">Casino-Layout</FONT><BR/><FONT POINT-SIZE="11">entities: 23</FONT><BR/><FONT POINT-SIZE="11">traits: 0</FONT>>];
+    "moose-11-casino-Casino-Model-UI-SubEntities" [label=<<FONT POINT-SIZE="12">Casino-UI</FONT><BR/><FONT POINT-SIZE="11">entities: 76</FONT><BR/><FONT POINT-SIZE="11">traits: 0</FONT>>];
+    "moose-11-casino-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 25</FONT>>];
+    "moose-11-casino-FAST-Java-Model" [label=<<FONT POINT-SIZE="12">FAST-Java</FONT><BR/><FONT POINT-SIZE="11">entities: 86</FONT><BR/><FONT POINT-SIZE="11">traits: 11</FONT>>];
+    "moose-11-casino-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 117</FONT>>];
+    "moose-11-casino-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_2 {
+    label="Famix-Java (Moose 12)";
+    style="rounded";
+    "moose-12-builtin-Famix-Java-Entities" [label=<<FONT POINT-SIZE="12">Famix-Java</FONT><BR/><FONT POINT-SIZE="11">entities: 42</FONT><BR/><FONT POINT-SIZE="11">traits: 9</FONT>>];
+    "moose-12-builtin-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 116</FONT>>];
+    "moose-12-builtin-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_3 {
+    label="Carrefour (Moose 12)";
+    style="rounded";
+    "moose-12-carrefour-Carrefour-Model" [label=<<FONT POINT-SIZE="12">Carrefour</FONT><BR/><FONT POINT-SIZE="11">entities: 1</FONT><BR/><FONT POINT-SIZE="11">traits: 0</FONT>>];
+    "moose-12-carrefour-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 29</FONT>>];
+    "moose-12-carrefour-FAST-Java-Model" [label=<<FONT POINT-SIZE="12">FAST-Java</FONT><BR/><FONT POINT-SIZE="11">entities: 87</FONT><BR/><FONT POINT-SIZE="11">traits: 11</FONT>>];
+    "moose-12-carrefour-Famix-Java-Entities" [label=<<FONT POINT-SIZE="12">Famix-Java</FONT><BR/><FONT POINT-SIZE="11">entities: 42</FONT><BR/><FONT POINT-SIZE="11">traits: 9</FONT>>];
+    "moose-12-carrefour-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 116</FONT>>];
+    "moose-12-carrefour-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_4 {
+    label="Carrefour-TypeScript (Moose 12)";
+    style="rounded";
+    "moose-12-carrefour-typescript-Carrefour-TypeScript-Model" [label=<<FONT POINT-SIZE="12">Carrefour-TypeScript</FONT><BR/><FONT POINT-SIZE="11">entities: 1</FONT><BR/><FONT POINT-SIZE="11">traits: 0</FONT>>];
+    "moose-12-carrefour-typescript-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 35</FONT>>];
+    "moose-12-carrefour-typescript-FAST-TypeScript-Model" [label=<<FONT POINT-SIZE="12">FAST-TypeScript</FONT><BR/><FONT POINT-SIZE="11">entities: 185</FONT><BR/><FONT POINT-SIZE="11">traits: 11</FONT>>];
+    "moose-12-carrefour-typescript-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 116</FONT>>];
+    "moose-12-carrefour-typescript-FamixTypeScript" [label=<<FONT POINT-SIZE="12">FamixTypeScript</FONT><BR/><FONT POINT-SIZE="11">entities: 49</FONT><BR/><FONT POINT-SIZE="11">traits: 4</FONT>>];
+    "moose-12-carrefour-typescript-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_5 {
+    label="Famix-Angular (Moose 12)";
+    style="rounded";
+    "moose-12-famix-angular-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 35</FONT>>];
+    "moose-12-famix-angular-FAST-HTML-Model" [label=<<FONT POINT-SIZE="12">FAST-HTML</FONT><BR/><FONT POINT-SIZE="11">entities: 21</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-12-famix-angular-FAST-SCSS-Model" [label=<<FONT POINT-SIZE="12">FAST-SCSS</FONT><BR/><FONT POINT-SIZE="11">entities: 87</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-12-famix-angular-FAST-TypeScript-Model" [label=<<FONT POINT-SIZE="12">FAST-TypeScript</FONT><BR/><FONT POINT-SIZE="11">entities: 185</FONT><BR/><FONT POINT-SIZE="11">traits: 11</FONT>>];
+    "moose-12-famix-angular-Famix-Angular-Entities" [label=<<FONT POINT-SIZE="12">Famix-Angular</FONT><BR/><FONT POINT-SIZE="11">entities: 19</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+    "moose-12-famix-angular-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 116</FONT>>];
+    "moose-12-famix-angular-FamixTypeScript" [label=<<FONT POINT-SIZE="12">FamixTypeScript</FONT><BR/><FONT POINT-SIZE="11">entities: 49</FONT><BR/><FONT POINT-SIZE="11">traits: 4</FONT>>];
+    "moose-12-famix-angular-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_6 {
+    label="Famix-OpenTelemetry (Moose 12)";
+    style="rounded";
+    "moose-12-famix-open-telemetry-Famix-OpenTelemetry-Entities" [label=<<FONT POINT-SIZE="12">Famix-OpenTelemetry</FONT><BR/><FONT POINT-SIZE="11">entities: 5</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-12-famix-open-telemetry-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 116</FONT>>];
+    "moose-12-famix-open-telemetry-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_7 {
+    label="Famix-UnitTest (Moose 12)";
+    style="rounded";
+    "moose-12-famix-unit-test-Carrefour-Model" [label=<<FONT POINT-SIZE="12">Carrefour</FONT><BR/><FONT POINT-SIZE="11">entities: 1</FONT><BR/><FONT POINT-SIZE="11">traits: 0</FONT>>];
+    "moose-12-famix-unit-test-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 29</FONT>>];
+    "moose-12-famix-unit-test-FAST-Java-Model" [label=<<FONT POINT-SIZE="12">FAST-Java</FONT><BR/><FONT POINT-SIZE="11">entities: 87</FONT><BR/><FONT POINT-SIZE="11">traits: 11</FONT>>];
+    "moose-12-famix-unit-test-Famix-Java-Entities" [label=<<FONT POINT-SIZE="12">Famix-Java</FONT><BR/><FONT POINT-SIZE="11">entities: 42</FONT><BR/><FONT POINT-SIZE="11">traits: 9</FONT>>];
+    "moose-12-famix-unit-test-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 116</FONT>>];
+    "moose-12-famix-unit-test-Famix-UnitTest-Entities" [label=<<FONT POINT-SIZE="12">Famix-UnitTest</FONT><BR/><FONT POINT-SIZE="11">entities: 11</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-12-famix-unit-test-Famix-Value-Entities" [label=<<FONT POINT-SIZE="12">Famix-Value</FONT><BR/><FONT POINT-SIZE="11">entities: 16</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+    "moose-12-famix-unit-test-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_8 {
+    label="Famix-Value (Moose 12)";
+    style="rounded";
+    "moose-12-famix-value-Carrefour-Model" [label=<<FONT POINT-SIZE="12">Carrefour</FONT><BR/><FONT POINT-SIZE="11">entities: 1</FONT><BR/><FONT POINT-SIZE="11">traits: 0</FONT>>];
+    "moose-12-famix-value-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 29</FONT>>];
+    "moose-12-famix-value-FAST-Java-Model" [label=<<FONT POINT-SIZE="12">FAST-Java</FONT><BR/><FONT POINT-SIZE="11">entities: 87</FONT><BR/><FONT POINT-SIZE="11">traits: 11</FONT>>];
+    "moose-12-famix-value-Famix-Java-Entities" [label=<<FONT POINT-SIZE="12">Famix-Java</FONT><BR/><FONT POINT-SIZE="11">entities: 42</FONT><BR/><FONT POINT-SIZE="11">traits: 9</FONT>>];
+    "moose-12-famix-value-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 116</FONT>>];
+    "moose-12-famix-value-Famix-Value-Entities" [label=<<FONT POINT-SIZE="12">Famix-Value</FONT><BR/><FONT POINT-SIZE="11">entities: 16</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+    "moose-12-famix-value-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_9 {
+    label="FAST-CSS (Moose 12)";
+    style="rounded";
+    "moose-12-fast-css-FAST-CSS-Model" [label=<<FONT POINT-SIZE="12">FAST-CSS</FONT><BR/><FONT POINT-SIZE="11">entities: 67</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-12-fast-css-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 35</FONT>>];
+    "moose-12-fast-css-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 116</FONT>>];
+    "moose-12-fast-css-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_10 {
+    label="FAST-HTML (Moose 12)";
+    style="rounded";
+    "moose-12-fast-html-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 35</FONT>>];
+    "moose-12-fast-html-FAST-HTML-Model" [label=<<FONT POINT-SIZE="12">FAST-HTML</FONT><BR/><FONT POINT-SIZE="11">entities: 21</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-12-fast-html-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 116</FONT>>];
+    "moose-12-fast-html-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_11 {
+    label="FAST-SCSS (Moose 12)";
+    style="rounded";
+    "moose-12-fast-scss-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 35</FONT>>];
+    "moose-12-fast-scss-FAST-SCSS-Model" [label=<<FONT POINT-SIZE="12">FAST-SCSS</FONT><BR/><FONT POINT-SIZE="11">entities: 87</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-12-fast-scss-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 116</FONT>>];
+    "moose-12-fast-scss-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_12 {
+    label="FAST-TypeScript (Moose 12)";
+    style="rounded";
+    "moose-12-fast-typescript-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 35</FONT>>];
+    "moose-12-fast-typescript-FAST-TypeScript-Model" [label=<<FONT POINT-SIZE="12">FAST-TypeScript</FONT><BR/><FONT POINT-SIZE="11">entities: 185</FONT><BR/><FONT POINT-SIZE="11">traits: 11</FONT>>];
+    "moose-12-fast-typescript-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 116</FONT>>];
+    "moose-12-fast-typescript-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_13 {
+    label="FAST-XML (Moose 12)";
+    style="rounded";
+    "moose-12-fast-xml-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 35</FONT>>];
+    "moose-12-fast-xml-FAST-XML-Model" [label=<<FONT POINT-SIZE="12">FAST-XML</FONT><BR/><FONT POINT-SIZE="11">entities: 53</FONT><BR/><FONT POINT-SIZE="11">traits: 6</FONT>>];
+    "moose-12-fast-xml-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 116</FONT>>];
+    "moose-12-fast-xml-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_14 {
+    label="FAST-YAML (Moose 12)";
+    style="rounded";
+    "moose-12-fast-yaml-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 35</FONT>>];
+    "moose-12-fast-yaml-FAST-YAML-Model" [label=<<FONT POINT-SIZE="12">FAST-YAML</FONT><BR/><FONT POINT-SIZE="11">entities: 39</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-12-fast-yaml-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 116</FONT>>];
+    "moose-12-fast-yaml-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_15 {
+    label="GitProjectHealth (Moose 12)";
+    style="rounded";
+    "moose-12-git-project-health-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 12</FONT><BR/><FONT POINT-SIZE="11">traits: 116</FONT>>];
+    "moose-12-git-project-health-GitLabHealth-Model" [label=<<FONT POINT-SIZE="12">GitProjectHealth</FONT><BR/><FONT POINT-SIZE="11">entities: 28</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+    "moose-12-git-project-health-GitProject-FamixConnector-Model" [label=<<FONT POINT-SIZE="12">GitProject-FamixConnector</FONT><BR/><FONT POINT-SIZE="11">entities: 1</FONT><BR/><FONT POINT-SIZE="11">traits: 0</FONT>>];
+    "moose-12-git-project-health-GitProject-JiraConnector-Model" [label=<<FONT POINT-SIZE="12">GitProject-JiraConnector</FONT><BR/><FONT POINT-SIZE="11">entities: 1</FONT><BR/><FONT POINT-SIZE="11">traits: 0</FONT>>];
+    "moose-12-git-project-health-JiraPharoAPI-Model" [label=<<FONT POINT-SIZE="12">JiraPharoAPI</FONT><BR/><FONT POINT-SIZE="11">entities: 8</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-12-git-project-health-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_16 {
+    label="Famix-Java (Moose 13)";
+    style="rounded";
+    "moose-13-builtin-Famix-Java-Entities" [label=<<FONT POINT-SIZE="12">Famix-Java</FONT><BR/><FONT POINT-SIZE="11">entities: 48</FONT><BR/><FONT POINT-SIZE="11">traits: 9</FONT>>];
+    "moose-13-builtin-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 113</FONT>>];
+    "moose-13-builtin-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_17 {
+    label="Carrefour-Fortran (Moose 13)";
+    style="rounded";
+    "moose-13-carrefour-fortran-Carrefour-Fortran-Model" [label=<<FONT POINT-SIZE="12">Carrefour-Fortran</FONT><BR/><FONT POINT-SIZE="11">entities: 1</FONT><BR/><FONT POINT-SIZE="11">traits: 0</FONT>>];
+    "moose-13-carrefour-fortran-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 29</FONT>>];
+    "moose-13-carrefour-fortran-FAST-Fortran-Entities" [label=<<FONT POINT-SIZE="12">FAST-Fortran</FONT><BR/><FONT POINT-SIZE="11">entities: 110</FONT><BR/><FONT POINT-SIZE="11">traits: 13</FONT>>];
+    "moose-13-carrefour-fortran-Famix-Esope-Entities" [label=<<FONT POINT-SIZE="12">Famix-Esope</FONT><BR/><FONT POINT-SIZE="11">entities: 14</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-13-carrefour-fortran-Famix-Fortran77-Entities" [label=<<FONT POINT-SIZE="12">Famix-Fortran77</FONT><BR/><FONT POINT-SIZE="11">entities: 33</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+    "moose-13-carrefour-fortran-Famix-FortranUDT-Entities" [label=<<FONT POINT-SIZE="12">Famix-FortranUDT</FONT><BR/><FONT POINT-SIZE="11">entities: 10</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-13-carrefour-fortran-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 113</FONT>>];
+    "moose-13-carrefour-fortran-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_18 {
+    label="Famix-Cpp (Moose 13)";
+    style="rounded";
+    "moose-13-famix-cpp-Famix-C-Entities" [label=<<FONT POINT-SIZE="12">Famix-C</FONT><BR/><FONT POINT-SIZE="11">entities: 40</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-13-famix-cpp-Famix-Cpp-Entities" [label=<<FONT POINT-SIZE="12">Famix-Cpp</FONT><BR/><FONT POINT-SIZE="11">entities: 13</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-13-famix-cpp-Famix-Preproc-Traits" [label=<<FONT POINT-SIZE="12">Famix-Preproc</FONT><BR/><FONT POINT-SIZE="11">entities: 1</FONT><BR/><FONT POINT-SIZE="11">traits: 7</FONT>>];
+    "moose-13-famix-cpp-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 113</FONT>>];
+    "moose-13-famix-cpp-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_19 {
+    label="Famix-Fortran (Moose 13)";
+    style="rounded";
+    "moose-13-famix-fortran-Famix-Fortran77-Entities" [label=<<FONT POINT-SIZE="12">Famix-Fortran77</FONT><BR/><FONT POINT-SIZE="11">entities: 33</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+    "moose-13-famix-fortran-Famix-FortranUDT-Entities" [label=<<FONT POINT-SIZE="12">Famix-FortranUDT</FONT><BR/><FONT POINT-SIZE="11">entities: 10</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-13-famix-fortran-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 113</FONT>>];
+    "moose-13-famix-fortran-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_20 {
+    label="Famix-Pharo (Moose 13)";
+    style="rounded";
+    "moose-13-famix-pharo-Famix-PharoSmalltalk-Entities" [label=<<FONT POINT-SIZE="12">Famix-Pharo</FONT><BR/><FONT POINT-SIZE="11">entities: 28</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-13-famix-pharo-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 113</FONT>>];
+    "moose-13-famix-pharo-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_21 {
+    label="Famix-Python (Moose 13)";
+    style="rounded";
+    "moose-13-famix-python-Famix-Python-Entities" [label=<<FONT POINT-SIZE="12">Famix-Python</FONT><BR/><FONT POINT-SIZE="11">entities: 32</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-13-famix-python-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 113</FONT>>];
+    "moose-13-famix-python-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_22 {
+    label="Famix-SQL (Moose 13)";
+    style="rounded";
+    "moose-13-famix-sql-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 113</FONT>>];
+    "moose-13-famix-sql-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+    "moose-13-famix-sql-SQL-Model" [label=<<FONT POINT-SIZE="12">Famix-SQL</FONT><BR/><FONT POINT-SIZE="11">entities: 56</FONT><BR/><FONT POINT-SIZE="11">traits: 12</FONT>>];
+  }
+  subgraph cluster_project_23 {
+    label="Famix-TypeScript (Moose 13)";
+    style="rounded";
+    "moose-13-famix-typescript-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 113</FONT>>];
+    "moose-13-famix-typescript-Famix-TypeScript-Entities" [label=<<FONT POINT-SIZE="12">Famix-TypeScript</FONT><BR/><FONT POINT-SIZE="11">entities: 54</FONT><BR/><FONT POINT-SIZE="11">traits: 4</FONT>>];
+    "moose-13-famix-typescript-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_24 {
+    label="FAST (Moose 13)";
+    style="rounded";
+    "moose-13-fast-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 35</FONT>>];
+    "moose-13-fast-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_25 {
+    label="FAST-Angular (Moose 13)";
+    style="rounded";
+    "moose-13-fast-angular-FAST-Angular-Model" [label=<<FONT POINT-SIZE="12">FAST-Angular</FONT><BR/><FONT POINT-SIZE="11">entities: 102</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-13-fast-angular-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 35</FONT>>];
+    "moose-13-fast-angular-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 113</FONT>>];
+    "moose-13-fast-angular-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_26 {
+    label="FAST-Fortran (Moose 13)";
+    style="rounded";
+    "moose-13-fast-fortran-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 29</FONT>>];
+    "moose-13-fast-fortran-FAST-Fortran-Entities" [label=<<FONT POINT-SIZE="12">FAST-Fortran</FONT><BR/><FONT POINT-SIZE="11">entities: 110</FONT><BR/><FONT POINT-SIZE="11">traits: 13</FONT>>];
+    "moose-13-fast-fortran-Famix-Esope-Entities" [label=<<FONT POINT-SIZE="12">Famix-Esope</FONT><BR/><FONT POINT-SIZE="11">entities: 14</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-13-fast-fortran-Famix-Fortran77-Entities" [label=<<FONT POINT-SIZE="12">Famix-Fortran77</FONT><BR/><FONT POINT-SIZE="11">entities: 33</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+    "moose-13-fast-fortran-Famix-FortranUDT-Entities" [label=<<FONT POINT-SIZE="12">Famix-FortranUDT</FONT><BR/><FONT POINT-SIZE="11">entities: 10</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-13-fast-fortran-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 113</FONT>>];
+    "moose-13-fast-fortran-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_27 {
+    label="FAST-Fortran-2K (Moose 13)";
+    style="rounded";
+    "moose-13-fast-fortran-2k-Carrefour-Esope-Model" [label=<<FONT POINT-SIZE="12">Carrefour-Esope</FONT><BR/><FONT POINT-SIZE="11">entities: 1</FONT><BR/><FONT POINT-SIZE="11">traits: 0</FONT>>];
+    "moose-13-fast-fortran-2k-Carrefour-Fortran-Model" [label=<<FONT POINT-SIZE="12">Carrefour-Fortran</FONT><BR/><FONT POINT-SIZE="11">entities: 1</FONT><BR/><FONT POINT-SIZE="11">traits: 0</FONT>>];
+    "moose-13-fast-fortran-2k-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 29</FONT>>];
+    "moose-13-fast-fortran-2k-FAST-Esope-Entities" [label=<<FONT POINT-SIZE="12">FAST-Esope</FONT><BR/><FONT POINT-SIZE="11">entities: 16</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-13-fast-fortran-2k-FAST-Fortran-Entities" [label=<<FONT POINT-SIZE="12">FAST-Fortran</FONT><BR/><FONT POINT-SIZE="11">entities: 110</FONT><BR/><FONT POINT-SIZE="11">traits: 13</FONT>>];
+    "moose-13-fast-fortran-2k-FAST-Fortran2k-Entities" [label=<<FONT POINT-SIZE="12">FAST-Fortran2k</FONT><BR/><FONT POINT-SIZE="11">entities: 141</FONT><BR/><FONT POINT-SIZE="11">traits: 15</FONT>>];
+    "moose-13-fast-fortran-2k-Famix-Esope-Entities" [label=<<FONT POINT-SIZE="12">Famix-Esope</FONT><BR/><FONT POINT-SIZE="11">entities: 14</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-13-fast-fortran-2k-Famix-Fortran77-Entities" [label=<<FONT POINT-SIZE="12">Famix-Fortran77</FONT><BR/><FONT POINT-SIZE="11">entities: 33</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+    "moose-13-fast-fortran-2k-Famix-FortranUDT-Entities" [label=<<FONT POINT-SIZE="12">Famix-FortranUDT</FONT><BR/><FONT POINT-SIZE="11">entities: 10</FONT><BR/><FONT POINT-SIZE="11">traits: 1</FONT>>];
+    "moose-13-fast-fortran-2k-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 113</FONT>>];
+    "moose-13-fast-fortran-2k-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_28 {
+    label="FAST-Java (Moose 13)";
+    style="rounded";
+    "moose-13-fast-java-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 35</FONT>>];
+    "moose-13-fast-java-FAST-Java-Model" [label=<<FONT POINT-SIZE="12">FAST-Java</FONT><BR/><FONT POINT-SIZE="11">entities: 88</FONT><BR/><FONT POINT-SIZE="11">traits: 11</FONT>>];
+    "moose-13-fast-java-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 113</FONT>>];
+    "moose-13-fast-java-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  subgraph cluster_project_29 {
+    label="FAST-Python (Moose 13)";
+    style="rounded";
+    "moose-13-fast-python-FAST-Core-Model" [label=<<FONT POINT-SIZE="12">FAST</FONT><BR/><FONT POINT-SIZE="11">entities: 2</FONT><BR/><FONT POINT-SIZE="11">traits: 35</FONT>>];
+    "moose-13-fast-python-FAST-Python-Model" [label=<<FONT POINT-SIZE="12">FAST-Python</FONT><BR/><FONT POINT-SIZE="11">entities: 107</FONT><BR/><FONT POINT-SIZE="11">traits: 24</FONT>>];
+    "moose-13-fast-python-Famix-Traits" [label=<<FONT POINT-SIZE="12">Famix</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 113</FONT>>];
+    "moose-13-fast-python-Moose-Query" [label=<<FONT POINT-SIZE="12">Moose-Query</FONT><BR/><FONT POINT-SIZE="11">entities: 0</FONT><BR/><FONT POINT-SIZE="11">traits: 2</FONT>>];
+  }
+  "moose-11-builtin-Famix-Java-Entities" -> "moose-11-builtin-Famix-Traits" [label="uses: 221, traits: 78"];
+  "moose-11-builtin-Famix-Java-Entities" -> "moose-11-builtin-Moose-Query" [label="uses: 27, traits: 2"];
+  "moose-11-builtin-Famix-Traits" -> "moose-11-builtin-Moose-Query" [label="uses: 37, traits: 2"];
+  "moose-11-casino-Casino-Behavior-Model" -> "moose-11-casino-Casino-Model" [label="inherits: 18, parents: 1; extensions: 5, targets: 5"];
+  "moose-11-casino-Casino-Behavior-Model" -> "moose-11-casino-Casino-Model-CoreWeb" [label="extensions: 1, targets: 1"];
+  "moose-11-casino-Casino-Behavior-Model" -> "moose-11-casino-FAST-Core-Model" [label="extensions: 5, targets: 2; uses: 10, traits: 2"];
+  "moose-11-casino-Casino-Behavior-Model" -> "moose-11-casino-FAST-Java-Model" [label="inherits: 1, parents: 1; uses: 1, traits: 1"];
+  "moose-11-casino-Casino-Behavior-Model" -> "moose-11-casino-Moose-Query" [label="uses: 5, traits: 1"];
+  "moose-11-casino-Casino-Business-Model" -> "moose-11-casino-Casino-Model" [label="extensions: 2, targets: 2"];
+  "moose-11-casino-Casino-Business-Model" -> "moose-11-casino-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-11-casino-Casino-Model" -> "moose-11-casino-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-11-casino-Casino-Model-CoreWeb" -> "moose-11-casino-Casino-Model" [label="inherits: 24, parents: 2; extensions: 1, targets: 1"];
+  "moose-11-casino-Casino-Model-CoreWeb" -> "moose-11-casino-Casino-Model-UI-SubEntities" [label="inherits: 3, parents: 2"];
+  "moose-11-casino-Casino-Model-Layout" -> "moose-11-casino-Casino-Model" [label="inherits: 4, parents: 2; extensions: 4, targets: 2"];
+  "moose-11-casino-Casino-Model-UI-SubEntities" -> "moose-11-casino-Casino-Model" [label="inherits: 46, parents: 3"];
+  "moose-11-casino-FAST-Core-Model" -> "moose-11-casino-Moose-Query" [label="uses: 21, traits: 1"];
+  "moose-11-casino-FAST-Java-Model" -> "moose-11-casino-FAST-Core-Model" [label="extensions: 37, targets: 4; uses: 156, traits: 23"];
+  "moose-11-casino-FAST-Java-Model" -> "moose-11-casino-Famix-Traits" [label="uses: 10, traits: 2"];
+  "moose-11-casino-FAST-Java-Model" -> "moose-11-casino-Moose-Query" [label="uses: 60, traits: 1"];
+  "moose-11-casino-Famix-Traits" -> "moose-11-casino-Moose-Query" [label="uses: 37, traits: 2"];
+  "moose-12-builtin-Famix-Java-Entities" -> "moose-12-builtin-Famix-Traits" [label="uses: 107, traits: 59"];
+  "moose-12-builtin-Famix-Java-Entities" -> "moose-12-builtin-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-builtin-Famix-Traits" -> "moose-12-builtin-Moose-Query" [label="uses: 11, traits: 2"];
+  "moose-12-carrefour-Carrefour-Model" -> "moose-12-carrefour-FAST-Core-Model" [label="extensions: 4, targets: 3"];
+  "moose-12-carrefour-Carrefour-Model" -> "moose-12-carrefour-FAST-Java-Model" [label="extensions: 6, targets: 6"];
+  "moose-12-carrefour-Carrefour-Model" -> "moose-12-carrefour-Famix-Java-Entities" [label="extensions: 2, targets: 2"];
+  "moose-12-carrefour-Carrefour-Model" -> "moose-12-carrefour-Famix-Traits" [label="extensions: 6, targets: 2"];
+  "moose-12-carrefour-FAST-Core-Model" -> "moose-12-carrefour-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-carrefour-FAST-Java-Model" -> "moose-12-carrefour-FAST-Core-Model" [label="extensions: 37, targets: 4; uses: 78, traits: 22"];
+  "moose-12-carrefour-FAST-Java-Model" -> "moose-12-carrefour-Famix-Traits" [label="uses: 5, traits: 1"];
+  "moose-12-carrefour-Famix-Java-Entities" -> "moose-12-carrefour-Famix-Traits" [label="uses: 107, traits: 59"];
+  "moose-12-carrefour-Famix-Java-Entities" -> "moose-12-carrefour-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-carrefour-Famix-Traits" -> "moose-12-carrefour-Moose-Query" [label="uses: 11, traits: 2"];
+  "moose-12-carrefour-typescript-Carrefour-TypeScript-Model" -> "moose-12-carrefour-typescript-FAST-Core-Model" [label="uses: 1, traits: 1"];
+  "moose-12-carrefour-typescript-Carrefour-TypeScript-Model" -> "moose-12-carrefour-typescript-FAST-TypeScript-Model" [label="extensions: 6, targets: 6; uses: 1, traits: 1"];
+  "moose-12-carrefour-typescript-Carrefour-TypeScript-Model" -> "moose-12-carrefour-typescript-FamixTypeScript" [label="extensions: 6, targets: 6; uses: 1, traits: 1"];
+  "moose-12-carrefour-typescript-FAST-Core-Model" -> "moose-12-carrefour-typescript-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-carrefour-typescript-FAST-TypeScript-Model" -> "moose-12-carrefour-typescript-FAST-Core-Model" [label="extensions: 54, targets: 3; uses: 57, traits: 10"];
+  "moose-12-carrefour-typescript-FAST-TypeScript-Model" -> "moose-12-carrefour-typescript-Famix-Traits" [label="uses: 2, traits: 1"];
+  "moose-12-carrefour-typescript-FAST-TypeScript-Model" -> "moose-12-carrefour-typescript-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-carrefour-typescript-Famix-Traits" -> "moose-12-carrefour-typescript-Moose-Query" [label="uses: 11, traits: 2"];
+  "moose-12-carrefour-typescript-FamixTypeScript" -> "moose-12-carrefour-typescript-Famix-Traits" [label="uses: 85, traits: 57"];
+  "moose-12-carrefour-typescript-FamixTypeScript" -> "moose-12-carrefour-typescript-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-famix-angular-FAST-Core-Model" -> "moose-12-famix-angular-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-famix-angular-FAST-HTML-Model" -> "moose-12-famix-angular-FAST-Core-Model" [label="uses: 3, traits: 2"];
+  "moose-12-famix-angular-FAST-HTML-Model" -> "moose-12-famix-angular-Famix-Traits" [label="uses: 2, traits: 1"];
+  "moose-12-famix-angular-FAST-HTML-Model" -> "moose-12-famix-angular-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-famix-angular-FAST-SCSS-Model" -> "moose-12-famix-angular-FAST-Core-Model" [label="uses: 2, traits: 2"];
+  "moose-12-famix-angular-FAST-SCSS-Model" -> "moose-12-famix-angular-Famix-Traits" [label="uses: 2, traits: 1"];
+  "moose-12-famix-angular-FAST-SCSS-Model" -> "moose-12-famix-angular-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-famix-angular-FAST-TypeScript-Model" -> "moose-12-famix-angular-FAST-Core-Model" [label="extensions: 54, targets: 3; uses: 57, traits: 10"];
+  "moose-12-famix-angular-FAST-TypeScript-Model" -> "moose-12-famix-angular-Famix-Traits" [label="uses: 2, traits: 1"];
+  "moose-12-famix-angular-FAST-TypeScript-Model" -> "moose-12-famix-angular-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-famix-angular-Famix-Angular-Entities" -> "moose-12-famix-angular-FAST-HTML-Model" [label="extensions: 1, targets: 1"];
+  "moose-12-famix-angular-Famix-Angular-Entities" -> "moose-12-famix-angular-FAST-SCSS-Model" [label="extensions: 1, targets: 1"];
+  "moose-12-famix-angular-Famix-Angular-Entities" -> "moose-12-famix-angular-FAST-TypeScript-Model" [label="extensions: 1, targets: 1"];
+  "moose-12-famix-angular-Famix-Angular-Entities" -> "moose-12-famix-angular-FamixTypeScript" [label="extensions: 1, targets: 1"];
+  "moose-12-famix-angular-Famix-Traits" -> "moose-12-famix-angular-Moose-Query" [label="uses: 11, traits: 2"];
+  "moose-12-famix-angular-FamixTypeScript" -> "moose-12-famix-angular-Famix-Traits" [label="uses: 85, traits: 57"];
+  "moose-12-famix-angular-FamixTypeScript" -> "moose-12-famix-angular-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-famix-open-telemetry-Famix-OpenTelemetry-Entities" -> "moose-12-famix-open-telemetry-Famix-Traits" [label="extensions: 1, targets: 1"];
+  "moose-12-famix-open-telemetry-Famix-Traits" -> "moose-12-famix-open-telemetry-Moose-Query" [label="uses: 11, traits: 2"];
+  "moose-12-famix-unit-test-Carrefour-Model" -> "moose-12-famix-unit-test-FAST-Core-Model" [label="extensions: 4, targets: 3"];
+  "moose-12-famix-unit-test-Carrefour-Model" -> "moose-12-famix-unit-test-FAST-Java-Model" [label="extensions: 6, targets: 6"];
+  "moose-12-famix-unit-test-Carrefour-Model" -> "moose-12-famix-unit-test-Famix-Java-Entities" [label="extensions: 2, targets: 2"];
+  "moose-12-famix-unit-test-Carrefour-Model" -> "moose-12-famix-unit-test-Famix-Traits" [label="extensions: 6, targets: 2"];
+  "moose-12-famix-unit-test-FAST-Core-Model" -> "moose-12-famix-unit-test-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-famix-unit-test-FAST-Java-Model" -> "moose-12-famix-unit-test-FAST-Core-Model" [label="extensions: 37, targets: 4; uses: 78, traits: 22"];
+  "moose-12-famix-unit-test-FAST-Java-Model" -> "moose-12-famix-unit-test-Famix-Traits" [label="uses: 5, traits: 1"];
+  "moose-12-famix-unit-test-Famix-Java-Entities" -> "moose-12-famix-unit-test-Famix-Traits" [label="uses: 107, traits: 59"];
+  "moose-12-famix-unit-test-Famix-Java-Entities" -> "moose-12-famix-unit-test-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-famix-unit-test-Famix-Traits" -> "moose-12-famix-unit-test-Moose-Query" [label="uses: 11, traits: 2"];
+  "moose-12-famix-unit-test-Famix-UnitTest-Entities" -> "moose-12-famix-unit-test-Famix-Traits" [label="extensions: 2, targets: 2; uses: 2, traits: 1"];
+  "moose-12-famix-unit-test-Famix-UnitTest-Entities" -> "moose-12-famix-unit-test-Famix-Value-Entities" [label="extensions: 4, targets: 1; uses: 1, traits: 1"];
+  "moose-12-famix-unit-test-Famix-Value-Entities" -> "moose-12-famix-unit-test-Famix-Traits" [label="extensions: 5, targets: 4; uses: 1, traits: 1"];
+  "moose-12-famix-value-Carrefour-Model" -> "moose-12-famix-value-FAST-Core-Model" [label="extensions: 4, targets: 3"];
+  "moose-12-famix-value-Carrefour-Model" -> "moose-12-famix-value-FAST-Java-Model" [label="extensions: 6, targets: 6"];
+  "moose-12-famix-value-Carrefour-Model" -> "moose-12-famix-value-Famix-Java-Entities" [label="extensions: 2, targets: 2"];
+  "moose-12-famix-value-Carrefour-Model" -> "moose-12-famix-value-Famix-Traits" [label="extensions: 6, targets: 2"];
+  "moose-12-famix-value-FAST-Core-Model" -> "moose-12-famix-value-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-famix-value-FAST-Java-Model" -> "moose-12-famix-value-FAST-Core-Model" [label="extensions: 37, targets: 4; uses: 78, traits: 22"];
+  "moose-12-famix-value-FAST-Java-Model" -> "moose-12-famix-value-Famix-Traits" [label="uses: 5, traits: 1"];
+  "moose-12-famix-value-Famix-Java-Entities" -> "moose-12-famix-value-Famix-Traits" [label="uses: 107, traits: 59"];
+  "moose-12-famix-value-Famix-Java-Entities" -> "moose-12-famix-value-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-famix-value-Famix-Traits" -> "moose-12-famix-value-Moose-Query" [label="uses: 11, traits: 2"];
+  "moose-12-famix-value-Famix-Value-Entities" -> "moose-12-famix-value-Famix-Traits" [label="extensions: 5, targets: 4; uses: 1, traits: 1"];
+  "moose-12-fast-css-FAST-CSS-Model" -> "moose-12-fast-css-FAST-Core-Model" [label="uses: 2, traits: 2"];
+  "moose-12-fast-css-FAST-CSS-Model" -> "moose-12-fast-css-Famix-Traits" [label="uses: 2, traits: 1"];
+  "moose-12-fast-css-FAST-CSS-Model" -> "moose-12-fast-css-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-fast-css-FAST-Core-Model" -> "moose-12-fast-css-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-fast-css-Famix-Traits" -> "moose-12-fast-css-Moose-Query" [label="uses: 11, traits: 2"];
+  "moose-12-fast-html-FAST-Core-Model" -> "moose-12-fast-html-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-fast-html-FAST-HTML-Model" -> "moose-12-fast-html-FAST-Core-Model" [label="uses: 3, traits: 2"];
+  "moose-12-fast-html-FAST-HTML-Model" -> "moose-12-fast-html-Famix-Traits" [label="uses: 2, traits: 1"];
+  "moose-12-fast-html-FAST-HTML-Model" -> "moose-12-fast-html-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-fast-html-Famix-Traits" -> "moose-12-fast-html-Moose-Query" [label="uses: 11, traits: 2"];
+  "moose-12-fast-scss-FAST-Core-Model" -> "moose-12-fast-scss-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-fast-scss-FAST-SCSS-Model" -> "moose-12-fast-scss-FAST-Core-Model" [label="uses: 2, traits: 2"];
+  "moose-12-fast-scss-FAST-SCSS-Model" -> "moose-12-fast-scss-Famix-Traits" [label="uses: 2, traits: 1"];
+  "moose-12-fast-scss-FAST-SCSS-Model" -> "moose-12-fast-scss-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-fast-scss-Famix-Traits" -> "moose-12-fast-scss-Moose-Query" [label="uses: 11, traits: 2"];
+  "moose-12-fast-typescript-FAST-Core-Model" -> "moose-12-fast-typescript-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-fast-typescript-FAST-TypeScript-Model" -> "moose-12-fast-typescript-FAST-Core-Model" [label="extensions: 54, targets: 3; uses: 57, traits: 10"];
+  "moose-12-fast-typescript-FAST-TypeScript-Model" -> "moose-12-fast-typescript-Famix-Traits" [label="uses: 2, traits: 1"];
+  "moose-12-fast-typescript-FAST-TypeScript-Model" -> "moose-12-fast-typescript-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-fast-typescript-Famix-Traits" -> "moose-12-fast-typescript-Moose-Query" [label="uses: 11, traits: 2"];
+  "moose-12-fast-xml-FAST-Core-Model" -> "moose-12-fast-xml-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-fast-xml-FAST-XML-Model" -> "moose-12-fast-xml-FAST-Core-Model" [label="uses: 3, traits: 2"];
+  "moose-12-fast-xml-FAST-XML-Model" -> "moose-12-fast-xml-Famix-Traits" [label="uses: 2, traits: 1"];
+  "moose-12-fast-xml-FAST-XML-Model" -> "moose-12-fast-xml-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-fast-xml-Famix-Traits" -> "moose-12-fast-xml-Moose-Query" [label="uses: 11, traits: 2"];
+  "moose-12-fast-yaml-FAST-Core-Model" -> "moose-12-fast-yaml-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-fast-yaml-FAST-YAML-Model" -> "moose-12-fast-yaml-FAST-Core-Model" [label="uses: 2, traits: 2"];
+  "moose-12-fast-yaml-FAST-YAML-Model" -> "moose-12-fast-yaml-Famix-Traits" [label="uses: 2, traits: 1"];
+  "moose-12-fast-yaml-FAST-YAML-Model" -> "moose-12-fast-yaml-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-fast-yaml-Famix-Traits" -> "moose-12-fast-yaml-Moose-Query" [label="uses: 11, traits: 2"];
+  "moose-12-git-project-health-Famix-Traits" -> "moose-12-git-project-health-Moose-Query" [label="uses: 11, traits: 2"];
+  "moose-12-git-project-health-GitLabHealth-Model" -> "moose-12-git-project-health-Famix-Traits" [label="uses: 14, traits: 1"];
+  "moose-12-git-project-health-GitLabHealth-Model" -> "moose-12-git-project-health-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-12-git-project-health-GitProject-FamixConnector-Model" -> "moose-12-git-project-health-Famix-Traits" [label="extensions: 1, targets: 1"];
+  "moose-12-git-project-health-GitProject-FamixConnector-Model" -> "moose-12-git-project-health-GitLabHealth-Model" [label="extensions: 1, targets: 1; uses: 1, traits: 1"];
+  "moose-12-git-project-health-GitProject-JiraConnector-Model" -> "moose-12-git-project-health-GitLabHealth-Model" [label="extensions: 2, targets: 2; uses: 1, traits: 1"];
+  "moose-12-git-project-health-GitProject-JiraConnector-Model" -> "moose-12-git-project-health-JiraPharoAPI-Model" [label="extensions: 2, targets: 1; uses: 1, traits: 1"];
+  "moose-13-builtin-Famix-Java-Entities" -> "moose-13-builtin-Famix-Traits" [label="uses: 112, traits: 59"];
+  "moose-13-builtin-Famix-Java-Entities" -> "moose-13-builtin-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-13-carrefour-fortran-Carrefour-Fortran-Model" -> "moose-13-carrefour-fortran-FAST-Core-Model" [label="extensions: 1, targets: 1; uses: 1, traits: 1"];
+  "moose-13-carrefour-fortran-Carrefour-Fortran-Model" -> "moose-13-carrefour-fortran-FAST-Fortran-Entities" [label="extensions: 12, targets: 10; uses: 1, traits: 1"];
+  "moose-13-carrefour-fortran-Carrefour-Fortran-Model" -> "moose-13-carrefour-fortran-Famix-Esope-Entities" [label="uses: 1, traits: 1"];
+  "moose-13-carrefour-fortran-Carrefour-Fortran-Model" -> "moose-13-carrefour-fortran-Famix-Fortran77-Entities" [label="extensions: 8, targets: 8; uses: 1, traits: 1"];
+  "moose-13-carrefour-fortran-Carrefour-Fortran-Model" -> "moose-13-carrefour-fortran-Famix-FortranUDT-Entities" [label="uses: 1, traits: 1"];
+  "moose-13-carrefour-fortran-Carrefour-Fortran-Model" -> "moose-13-carrefour-fortran-Famix-Traits" [label="extensions: 4, targets: 2"];
+  "moose-13-carrefour-fortran-FAST-Core-Model" -> "moose-13-carrefour-fortran-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-13-carrefour-fortran-FAST-Fortran-Entities" -> "moose-13-carrefour-fortran-FAST-Core-Model" [label="extensions: 2, targets: 2; uses: 42, traits: 21"];
+  "moose-13-carrefour-fortran-Famix-Esope-Entities" -> "moose-13-carrefour-fortran-Famix-Fortran77-Entities" [label="inherits: 4, parents: 3; extensions: 3, targets: 1; uses: 1, traits: 1"];
+  "moose-13-carrefour-fortran-Famix-Esope-Entities" -> "moose-13-carrefour-fortran-Famix-FortranUDT-Entities" [label="inherits: 1, parents: 1; uses: 1, traits: 1"];
+  "moose-13-carrefour-fortran-Famix-Esope-Entities" -> "moose-13-carrefour-fortran-Famix-Traits" [label="uses: 1, traits: 1"];
+  "moose-13-carrefour-fortran-Famix-Fortran77-Entities" -> "moose-13-carrefour-fortran-Famix-Traits" [label="uses: 40, traits: 24"];
+  "moose-13-carrefour-fortran-Famix-Fortran77-Entities" -> "moose-13-carrefour-fortran-Moose-Query" [label="uses: 6, traits: 1"];
+  "moose-13-carrefour-fortran-Famix-FortranUDT-Entities" -> "moose-13-carrefour-fortran-Famix-Fortran77-Entities" [label="inherits: 2, parents: 2; uses: 1, traits: 1"];
+  "moose-13-carrefour-fortran-Famix-FortranUDT-Entities" -> "moose-13-carrefour-fortran-Famix-Traits" [label="uses: 8, traits: 8"];
+  "moose-13-famix-cpp-Famix-C-Entities" -> "moose-13-famix-cpp-Famix-Preproc-Traits" [label="uses: 5, traits: 5"];
+  "moose-13-famix-cpp-Famix-C-Entities" -> "moose-13-famix-cpp-Famix-Traits" [label="uses: 59, traits: 41"];
+  "moose-13-famix-cpp-Famix-C-Entities" -> "moose-13-famix-cpp-Moose-Query" [label="uses: 2, traits: 1"];
+  "moose-13-famix-cpp-Famix-Cpp-Entities" -> "moose-13-famix-cpp-Famix-C-Entities" [label="inherits: 8, parents: 8; uses: 1, traits: 1"];
+  "moose-13-famix-cpp-Famix-Cpp-Entities" -> "moose-13-famix-cpp-Famix-Traits" [label="uses: 12, traits: 12"];
+  "moose-13-famix-cpp-Famix-Preproc-Traits" -> "moose-13-famix-cpp-Famix-Traits" [label="uses: 5, traits: 4"];
+  "moose-13-famix-cpp-Famix-Preproc-Traits" -> "moose-13-famix-cpp-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-13-famix-fortran-Famix-Fortran77-Entities" -> "moose-13-famix-fortran-Famix-Traits" [label="uses: 40, traits: 24"];
+  "moose-13-famix-fortran-Famix-Fortran77-Entities" -> "moose-13-famix-fortran-Moose-Query" [label="uses: 6, traits: 1"];
+  "moose-13-famix-fortran-Famix-FortranUDT-Entities" -> "moose-13-famix-fortran-Famix-Fortran77-Entities" [label="inherits: 2, parents: 2; uses: 1, traits: 1"];
+  "moose-13-famix-fortran-Famix-FortranUDT-Entities" -> "moose-13-famix-fortran-Famix-Traits" [label="uses: 8, traits: 8"];
+  "moose-13-famix-pharo-Famix-PharoSmalltalk-Entities" -> "moose-13-famix-pharo-Famix-Traits" [label="uses: 51, traits: 38"];
+  "moose-13-famix-pharo-Famix-PharoSmalltalk-Entities" -> "moose-13-famix-pharo-Moose-Query" [label="uses: 3, traits: 1"];
+  "moose-13-famix-python-Famix-Python-Entities" -> "moose-13-famix-python-Famix-Traits" [label="uses: 100, traits: 47"];
+  "moose-13-famix-python-Famix-Python-Entities" -> "moose-13-famix-python-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-13-famix-sql-SQL-Model" -> "moose-13-famix-sql-Famix-Traits" [label="uses: 36, traits: 12"];
+  "moose-13-famix-sql-SQL-Model" -> "moose-13-famix-sql-Moose-Query" [label="uses: 2, traits: 1"];
+  "moose-13-famix-typescript-Famix-TypeScript-Entities" -> "moose-13-famix-typescript-Famix-Traits" [label="uses: 92, traits: 59"];
+  "moose-13-famix-typescript-Famix-TypeScript-Entities" -> "moose-13-famix-typescript-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-13-fast-FAST-Core-Model" -> "moose-13-fast-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-13-fast-angular-FAST-Angular-Model" -> "moose-13-fast-angular-FAST-Core-Model" [label="uses: 2, traits: 2"];
+  "moose-13-fast-angular-FAST-Angular-Model" -> "moose-13-fast-angular-Famix-Traits" [label="uses: 2, traits: 1"];
+  "moose-13-fast-angular-FAST-Angular-Model" -> "moose-13-fast-angular-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-13-fast-angular-FAST-Core-Model" -> "moose-13-fast-angular-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-13-fast-fortran-FAST-Core-Model" -> "moose-13-fast-fortran-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-13-fast-fortran-FAST-Fortran-Entities" -> "moose-13-fast-fortran-FAST-Core-Model" [label="extensions: 2, targets: 2; uses: 42, traits: 21"];
+  "moose-13-fast-fortran-Famix-Esope-Entities" -> "moose-13-fast-fortran-Famix-Fortran77-Entities" [label="inherits: 4, parents: 3; extensions: 3, targets: 1; uses: 1, traits: 1"];
+  "moose-13-fast-fortran-Famix-Esope-Entities" -> "moose-13-fast-fortran-Famix-FortranUDT-Entities" [label="inherits: 1, parents: 1; uses: 1, traits: 1"];
+  "moose-13-fast-fortran-Famix-Esope-Entities" -> "moose-13-fast-fortran-Famix-Traits" [label="uses: 1, traits: 1"];
+  "moose-13-fast-fortran-Famix-Fortran77-Entities" -> "moose-13-fast-fortran-Famix-Traits" [label="uses: 40, traits: 24"];
+  "moose-13-fast-fortran-Famix-Fortran77-Entities" -> "moose-13-fast-fortran-Moose-Query" [label="uses: 6, traits: 1"];
+  "moose-13-fast-fortran-Famix-FortranUDT-Entities" -> "moose-13-fast-fortran-Famix-Fortran77-Entities" [label="inherits: 2, parents: 2; uses: 1, traits: 1"];
+  "moose-13-fast-fortran-Famix-FortranUDT-Entities" -> "moose-13-fast-fortran-Famix-Traits" [label="uses: 8, traits: 8"];
+  "moose-13-fast-fortran-2k-Carrefour-Esope-Model" -> "moose-13-fast-fortran-2k-FAST-Core-Model" [label="uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Carrefour-Esope-Model" -> "moose-13-fast-fortran-2k-FAST-Esope-Entities" [label="extensions: 2, targets: 2; uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Carrefour-Esope-Model" -> "moose-13-fast-fortran-2k-FAST-Fortran-Entities" [label="uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Carrefour-Esope-Model" -> "moose-13-fast-fortran-2k-Famix-Esope-Entities" [label="extensions: 1, targets: 1; uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Carrefour-Esope-Model" -> "moose-13-fast-fortran-2k-Famix-Fortran77-Entities" [label="extensions: 1, targets: 1; uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Carrefour-Esope-Model" -> "moose-13-fast-fortran-2k-Famix-FortranUDT-Entities" [label="uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Carrefour-Fortran-Model" -> "moose-13-fast-fortran-2k-FAST-Core-Model" [label="extensions: 1, targets: 1; uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Carrefour-Fortran-Model" -> "moose-13-fast-fortran-2k-FAST-Fortran-Entities" [label="extensions: 12, targets: 10; uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Carrefour-Fortran-Model" -> "moose-13-fast-fortran-2k-Famix-Esope-Entities" [label="uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Carrefour-Fortran-Model" -> "moose-13-fast-fortran-2k-Famix-Fortran77-Entities" [label="extensions: 8, targets: 8; uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Carrefour-Fortran-Model" -> "moose-13-fast-fortran-2k-Famix-FortranUDT-Entities" [label="uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Carrefour-Fortran-Model" -> "moose-13-fast-fortran-2k-Famix-Traits" [label="extensions: 4, targets: 2"];
+  "moose-13-fast-fortran-2k-FAST-Core-Model" -> "moose-13-fast-fortran-2k-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-FAST-Esope-Entities" -> "moose-13-fast-fortran-2k-FAST-Core-Model" [label="uses: 2, traits: 2"];
+  "moose-13-fast-fortran-2k-FAST-Esope-Entities" -> "moose-13-fast-fortran-2k-FAST-Fortran-Entities" [label="inherits: 5, parents: 2; extensions: 2, targets: 2; uses: 3, traits: 2"];
+  "moose-13-fast-fortran-2k-FAST-Esope-Entities" -> "moose-13-fast-fortran-2k-Famix-Traits" [label="uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-FAST-Esope-Entities" -> "moose-13-fast-fortran-2k-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-FAST-Fortran-Entities" -> "moose-13-fast-fortran-2k-FAST-Core-Model" [label="extensions: 2, targets: 2; uses: 42, traits: 21"];
+  "moose-13-fast-fortran-2k-FAST-Fortran2k-Entities" -> "moose-13-fast-fortran-2k-FAST-Core-Model" [label="uses: 62, traits: 21"];
+  "moose-13-fast-fortran-2k-Famix-Esope-Entities" -> "moose-13-fast-fortran-2k-Famix-Fortran77-Entities" [label="inherits: 4, parents: 3; extensions: 3, targets: 1; uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Famix-Esope-Entities" -> "moose-13-fast-fortran-2k-Famix-FortranUDT-Entities" [label="inherits: 1, parents: 1; uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Famix-Esope-Entities" -> "moose-13-fast-fortran-2k-Famix-Traits" [label="uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Famix-Fortran77-Entities" -> "moose-13-fast-fortran-2k-Famix-Traits" [label="uses: 40, traits: 24"];
+  "moose-13-fast-fortran-2k-Famix-Fortran77-Entities" -> "moose-13-fast-fortran-2k-Moose-Query" [label="uses: 6, traits: 1"];
+  "moose-13-fast-fortran-2k-Famix-FortranUDT-Entities" -> "moose-13-fast-fortran-2k-Famix-Fortran77-Entities" [label="inherits: 2, parents: 2; uses: 1, traits: 1"];
+  "moose-13-fast-fortran-2k-Famix-FortranUDT-Entities" -> "moose-13-fast-fortran-2k-Famix-Traits" [label="uses: 8, traits: 8"];
+  "moose-13-fast-java-FAST-Core-Model" -> "moose-13-fast-java-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-13-fast-java-FAST-Java-Model" -> "moose-13-fast-java-FAST-Core-Model" [label="extensions: 28, targets: 3; uses: 86, traits: 24"];
+  "moose-13-fast-java-FAST-Java-Model" -> "moose-13-fast-java-Famix-Traits" [label="uses: 6, traits: 1"];
+  "moose-13-fast-python-FAST-Core-Model" -> "moose-13-fast-python-Moose-Query" [label="uses: 1, traits: 1"];
+  "moose-13-fast-python-FAST-Python-Model" -> "moose-13-fast-python-FAST-Core-Model" [label="uses: 54, traits: 22"];
+  "moose-13-fast-python-FAST-Python-Model" -> "moose-13-fast-python-Famix-Traits" [label="uses: 1, traits: 1"];
+}

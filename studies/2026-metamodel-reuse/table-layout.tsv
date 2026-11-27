@@ -1,0 +1,44 @@
+group	metamodel	label
+Famix	Famix	FamixT
+Famix	Famix-Angular
+Famix	Famix-C
+Famix	Famix-Cpp
+Famix	Famix-Esope
+Famix	Famix-Fortran77
+Famix	Famix-FortranUDT
+Famix	Famix-Java
+Famix	Famix-OpenTelemetry
+Famix	Famix-Pharo
+Famix	Famix-Preproc
+Famix	Famix-Python
+Famix	Famix-SQL
+Famix	Famix-TypeScript
+Famix	Famix-UnitTest
+Famix	Famix-Value
+FAST	FAST	FASTT
+FAST	FAST-Angular
+FAST	FAST-CSS
+FAST	FAST-Esope
+FAST	FAST-Fortran
+FAST	FAST-Fortran2k
+FAST	FAST-HTML
+FAST	FAST-Java
+FAST	FAST-Python
+FAST	FAST-SCSS
+FAST	FAST-TypeScript
+FAST	FAST-XML
+FAST	FAST-YAML
+Carrefour	Carrefour
+Carrefour	Carrefour-Esope
+Carrefour	Carrefour-Fortran
+Carrefour	Carrefour-TypeScript
+Casino	Casino	Casino-Core
+Casino	Casino-Behavior
+Casino	Casino-Business
+Casino	Casino-CoreWeb
+Casino	Casino-Layout
+Casino	Casino-UI
+GitProject	GitProjectHealth
+GitProject	JiraPharoAPI
+GitProject	GitProject-FamixConnector
+GitProject	GitProject-JiraConnector

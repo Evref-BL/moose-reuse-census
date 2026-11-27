@@ -1,0 +1,15 @@
+trait	description
+TNamedEntity	An entity with a name.
+TSourceEntity	An entity found in source code.
+TSourceAnchor	A location in the source code.
+TComment	A comment on an entity.
+TType	A type declaring members.
+TClass	A type that can be instantiated.
+TInheritance	A subtyping relation.
+TMethod	A behavior declared by a type.
+TParameter	A parameter of a behavior.
+TLocalVariable	A variable local to a behavior.
+TAttribute	A field declared by a type.
+TAccess	A read or write of a variable.
+TInvocation	A call to a behavior.
+TReference	A use of an entity as a value.
